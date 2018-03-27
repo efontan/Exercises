@@ -27,6 +27,9 @@ Return:
     "FizzBuzz"
 ]
 
+Solution complexity: 
+Time: O(n)
+Size: O(n)
 */
 
 public class FizzBuzz {
