@@ -6,7 +6,10 @@ TinyURL is a URL shortening service where you enter a URL such as https://leetco
 Design the encode and decode methods for the TinyURL service. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.
 */
 
-public class Codec {
+import java.util.HashMap;
+import java.util.Map;
+
+public class TinyURLCodec {
     private Map<Integer,String> encodedUrls = new HashMap<>();
     private String host = "http://tinyurl.com/";
 

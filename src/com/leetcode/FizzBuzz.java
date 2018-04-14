@@ -32,6 +32,9 @@ Time: O(n)
 Size: O(n)
 */
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FizzBuzz {
 
     public List<String> fizzBuzz(int n) {

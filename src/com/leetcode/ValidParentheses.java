@@ -10,6 +10,10 @@ Time: O(n)
 Size: O(n)
 */
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+
 public class ValidParentheses {
     
     public boolean isValid(String s) {

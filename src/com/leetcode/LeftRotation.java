@@ -34,9 +34,6 @@ Sample Output
 
 */
 
-0
-1
-
 public class LeftRotation {
 
     public static void main(String[] args) {
