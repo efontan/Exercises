@@ -1,4 +1,4 @@
-package com.leetcode;
+package main.com.leetcode;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

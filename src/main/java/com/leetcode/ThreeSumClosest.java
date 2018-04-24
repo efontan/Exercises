@@ -1,4 +1,4 @@
-package com.leetcode;
+package main.com.leetcode;
 
 /**
  * 3Sum Closest

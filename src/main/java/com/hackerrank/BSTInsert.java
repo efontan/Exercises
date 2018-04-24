@@ -1,4 +1,4 @@
-package com.hackerrank;
+package main.com.hackerrank;
 
 /**
  * Binary Search Tree Insertion

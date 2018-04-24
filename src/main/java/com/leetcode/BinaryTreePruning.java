@@ -1,4 +1,4 @@
-package com.leetcode;
+package main.com.leetcode;
 
 /**
  * Problem: https://leetcode.com/problems/binary-tree-pruning/description/
