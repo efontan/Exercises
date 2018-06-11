@@ -1,4 +1,4 @@
-package main.com.leetcode;
+package com.leetcode;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -7,10 +7,10 @@ import java.util.Set;
 
 /**
  * Problem https://leetcode.com/problems/most-common-word/description/
- * <p>
+ *
  * Given a paragraph and a list of banned words, return the most frequent word that is not in the list of banned words.
  * It is guaranteed there is at least one word that isn't banned, and that the answer is unique.
- * <p>
+ *
  * Words in the list of banned words are given in lowercase, and free of punctuation.  Words in the paragraph are not
  * case sensitive.  The answer is in lowercase.
  *
@@ -36,10 +36,8 @@ public class MostCommonWord {
             if (!bannedSet.contains(lowerWord)) {
 
                 if (map.containsKey(lowerWord)) {
-                    System.out.println("Contains " + lowerWord);
                     map.put(lowerWord, map.get(lowerWord) + 1);
                 } else {
-                    System.out.println("Not contains " + lowerWord);
                     map.put(lowerWord, 1);
                 }
             }

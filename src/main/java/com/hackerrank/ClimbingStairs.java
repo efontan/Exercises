@@ -1,4 +1,4 @@
-package main.com.hackerrank;
+package com.hackerrank;
 
 /*
 You are climbing a stair case. It takes n steps to reach to the top.

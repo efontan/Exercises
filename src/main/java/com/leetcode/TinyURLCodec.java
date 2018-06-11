@@ -1,4 +1,4 @@
-package main.com.leetcode;
+package com.leetcode;
 
 /*
 TinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk.

@@ -1,4 +1,4 @@
-package main.com.leetcode;
+package com.leetcode;
 
 /*
 Write a program that outputs the string representation of numbers from 1 to n.

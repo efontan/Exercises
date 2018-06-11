@@ -1,4 +1,4 @@
-package main.com.hackerrank;
+package com.hackerrank;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
  * Sample Input #1
  *
  * 10
- * -20 -3916237 -357920 -3620601 7374819 -7330761 30 6246457 -6461594 266854  * 
+ * -20 -3916237 -357920 -3620601 7374819 -7330761 30 6246457 -6461594 266854
  */
 
 public class ClosestNumbers {

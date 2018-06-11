@@ -1,20 +1,19 @@
-package main.com.hackerrank;
+package com.hackerrank;
 
 import java.util.Scanner;
 
 /**
  * Problem: https://www.hackerrank.com/challenges/mini-max-sum/problem
- * <p>
+ *
  * Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four
  * of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated
  * long integers.
- * <p>
+ *
  * Solution: The minimun total is the result of the addition of all the elements excluding que largest. And the maximun
  * total is the result of addition of all the elements excluding the smallest. So, we need to rack the minimun and
  * maximun value, and substract them from the total to get each result.
- * <p>
+ *
  * Time: O(n)
- * <p>
  * Space: O(1)
  */
 public class MiniMaxSum {
